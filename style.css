@@ -1,0 +1,65 @@
+body{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.logo{
+    width: 200px;
+}
+.top-line{
+    text-transform: uppercase;
+    font-family: "Raleway";
+    font-size: 5rem;
+    
+}
+.poster-images{
+    width: 550px;  
+    float: left;
+    padding: 20px;
+    padding-left: 0px;
+}
+.head-line{
+    font-family: "Sarabun";
+    font-size: 30px;
+}
+.paragraph{
+    font-family: "Sarabun";
+    font-size: 20px;
+}
+.main-div{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+.Movies{
+    color: skyblue;
+}
+.box{
+    width: 550px;
+}
+@media (max-width : 600px) {
+    .logo{
+        width: 100px;
+    }
+    .top-line{
+        font-size: 3rem;
+    }
+    .box{
+        object-fit: cover;
+        width: 100%;
+    }
+    .poster-images{
+        width: 100%
+
+    }
+    .main-div{
+        display: flex;
+        justify-content:flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap:0px;
+    }
+}
